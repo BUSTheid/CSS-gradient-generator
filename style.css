@@ -5,7 +5,11 @@ body {
     text-transform: uppercase;
     letter-spacing: .25em;
     top: 15%;
-    background: linear-gradient(to right, yellow , green); /* Standard syntax */
+    background: linear-gradient(to right, yellow , green) no-repeat center center fixed;; /* Standard syntax */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1 {
